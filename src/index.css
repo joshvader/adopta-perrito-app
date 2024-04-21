@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+
+  min-width: 100%;
+  min-height: auto;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 1em;
+  background-color: rgb(247, 247, 247);
+}
+
+.CardGroup{
+  margin: 100px 0px;
+  width: 100%;
+}
+
+.badge{
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 1em;
+}
+
+.imagen{
+  border-radius: 6px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.divFooter{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424;
+  height: 80px;
+  color: rgb(231, 231, 231);
+}
